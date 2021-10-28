@@ -3,7 +3,7 @@ print("\nEsse algoritmo vai concatenar o nome da pessoa e todas as combinações
 
 nome = input("Digite o nome da pessoa:")
 
-arquivo = open('num.txt', 'w')
+arquivo = open('word-list.txt', 'w')
 
 for c in range(1, 13, +1):
     for i in range(1, 32, +1):
